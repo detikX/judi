@@ -1,0 +1,31 @@
+.banner {
+    .title {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        width: 50%;
+        transform: translate(-50%, -50%);
+        @media screen and (max-width: 768px) {
+            width: 100%;
+        }
+        h2 {
+            color: white;
+            font-size: 4rem;
+            text-align: center;
+            @media screen and (max-width: 768px) {
+                font-size: 2.4rem;
+            }
+        }
+    }
+    .img {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
