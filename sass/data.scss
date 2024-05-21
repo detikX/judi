@@ -1,4 +1,7 @@
 .data {
+    // background: #14073c;
+    // 14073c
+    background: #0c0427;
     .cek-shine {
         position: absolute;
         top: 50%;
@@ -11,13 +14,44 @@
     }
 
     .imgx {
-        width: 360px;
-        height: 360px;
+        width: 520px;
+        height: 520px;
         margin: 0 auto;
+        @media screen and (max-width: 768px) {
+            width: 100%;
+            height: auto;
+        }
         img {
             width: 100%;
             height: 100%;
             object-fit: contain;
         }
     }
+
+    .mengapa {
+        top: 10vh;
+        @media screen and (max-width: 768px) {
+            top: 20vh;
+        }
+        h3 {
+            font-size: 2.5rem;
+        }
+        &::before {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 30vh;
+            background: #14073c;
+            z-index: -1;
+            @media screen and (max-width: 768px) {
+                height: 50vh;
+            }
+        }
+    }
+}
+
+.h-80 {
+    height: 50vh;
 }
