@@ -29,7 +29,19 @@
         width: 100%;
         min-height: 100vh;
         padding: 100px;
-        background: #000;
+        // background: #000;
+        background: transparent;
+        @media screen and (max-width: 768px) {
+            padding: 100px 16px;
+        }
+
+        .text4 {
+            color: white;
+            font-family: "Source Code Pro";
+            .tahun {
+                font-size: 2rem;
+            }
+        }
     }
 
     .box2 h2 {

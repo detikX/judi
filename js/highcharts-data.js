@@ -50,6 +50,7 @@ Highcharts.chart('container', {
             cursor: 'pointer',
             colors,
             borderRadius: 5,
+
             dataLabels: {
                 enabled: true,
                 format: '<b>{point.name}</b><br>{point.y} %',
@@ -58,7 +59,12 @@ Highcharts.chart('container', {
                     property: 'percentage',
                     operator: '>',
                     value: 4
-                }
+                },
+                style: {
+                    // color: "#fafafa",
+                    font: '1rem "Rubik", sans-serif',
+                    // lineHeight: '2rem'
+                },
             }
         }
     },

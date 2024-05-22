@@ -7,6 +7,16 @@
 $colorred: #ffefe2;
 $color-secondary: #ff7352;
 
+.preloadx {
+    font-family: "Source Code Pro" !important;
+    p {
+        font-size: 1.5rem;
+        @media screen and (max-width: 768px) {
+            font-size: 1.3rem;
+        }
+    }
+}
+
 .preload {
     // font-family: "Noto Serif JP", sans-serif;
     font-family: "Roboto Slab";
@@ -100,6 +110,10 @@ $color-secondary: #ff7352;
         -webkit-animation-name: bounce;
         animation-name: bounce;
     }
+}
+
+.min-auto-height {
+    min-height: auto;
 }
 
 section {
