@@ -18,11 +18,12 @@ Highcharts.chart('container', {
         type: 'pie'
     },
     title: {
-        text: 'Menemukan Iklan Judi Online di Sosial Media ',
+        text: ' ',
         align: 'left',
         style: {
             color: "#fafafa",
-            font: 'bold 24px "CasinoShadow", sans-serif'
+            font: 'bold 2rem "Jersey 20", sans-serif',
+            // lineHeight: '2rem'
         }
 
 

@@ -4,7 +4,7 @@
 }
 
 @font-face {
-    font-family: "CasinoShadow";
+    font-family: "Casino2";
     src: font-files(
         "CasinoShadow.woff",
         "CasinoShadow.woff2",
@@ -19,6 +19,13 @@
     // 14073c
     background: #0c0427;
     // background: linear-gradient(to top, #0c0427 90%, black);
+
+    .titlex {
+        font-family: "Jersey 20" !important;
+        font-size: 3rem;
+        filter: drop-shadow(2px 4px 6px #bc13fe);
+        line-height: 3rem;
+    }
     .hello {
         background: rgba(238, 244, 237, 1);
     }
@@ -71,9 +78,9 @@
         @media screen and (max-width: 768px) {
             top: 20vh;
         }
-        h3 {
-            font-size: 2.5rem;
-        }
+        // h3 {
+        //     font-size: 2.5rem;
+        // }
         &::before {
             content: "";
             position: absolute;
