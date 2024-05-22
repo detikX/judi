@@ -1,3 +1,19 @@
+@font-face {
+    font-family: "Casino";
+    src: font-files("Casino.woff", "Casino.woff2", "Casino.ttf", "Casino.svg", "Casino.eot");
+}
+
+@font-face {
+    font-family: "CasinoShadow";
+    src: font-files(
+        "CasinoShadow.woff",
+        "CasinoShadow.woff2",
+        "CasinoShadow.ttf",
+        "CasinoShadow.svg",
+        "CasinoShadow.eot"
+    );
+}
+
 .data {
     // background: #14073c;
     // 14073c

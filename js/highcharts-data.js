@@ -18,8 +18,22 @@ Highcharts.chart('container', {
         type: 'pie'
     },
     title: {
-        text: 'Browser market shares in February, 2022',
-        align: 'left'
+        text: 'Menemukan Iklan Judi Online di Sosial Media ',
+        align: 'left',
+        style: {
+            color: "#fafafa",
+            font: 'bold 24px "CasinoShadow", sans-serif'
+        }
+
+
+    },
+    subtitle: {
+        text: 'Sumber: Survei Populix pada 21-28 November 2023.',
+        align: 'left',
+        style: {
+            color: "#fafafa",
+            // font: ' sans-serif'
+        }
     },
     tooltip: {
         // pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
@@ -48,7 +62,7 @@ Highcharts.chart('container', {
         }
     },
     series: [{
-        name: 'Share',
+        name: 'Persen',
         data: [
             { name: 'Instagram', y: 46 },
             { name: 'Youtube', y: 45 },
