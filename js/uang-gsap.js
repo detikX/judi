@@ -8,6 +8,7 @@ var targetsHeight = document.querySelectorAll(".height");
 
 
 targetsHeight.forEach((target, index) => {
+
     const pinSpacing = index === targetsHeight.length - 1 ? "true" : false;
     const end =
         index === targetsHeight.length - 1
@@ -15,7 +16,7 @@ targetsHeight.forEach((target, index) => {
             : `+=${targetsHeight[index + 1].offsetHeight}px`;
     const opacityFirst = index === 0 ? 1 : 0;
     const opacitySecond = index === targetsHeight.length - 1 ? 1 : 0;
-    // console.log(targetsHeight[index + 1].offsetHeight - 1, 'end');
+    console.log(target, 'end');
     const tl = gsap
         .timeline({
             defaults: { duration: 1 },
@@ -25,8 +26,8 @@ targetsHeight.forEach((target, index) => {
                 scrub: true,
                 // start: "center center",
                 end,
-                markers: true,
-                height: 50,
+                markers: false,
+                // height: 50,
                 toggleActions: "restart none reverse reset",
                 pinSpacing,
             },
