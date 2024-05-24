@@ -46,15 +46,37 @@
         }
         .blocking {
             text-align: center;
-            background: #004291;
-            border: 1px dashed white;
             display: inline-block;
             width: 45%;
             // margin-bottom: 16px;
             margin: 6px 4px;
             position: relative;
-            border-radius: 8px;
             padding: 8px;
+            &::after {
+                content: "";
+                position: absolute;
+                position: absolute;
+                bottom: 65%;
+                left: 50%;
+                right: 0;
+                width: 50%;
+                height: 4px;
+                background: #004291;
+                z-index: -1;
+                transform: translate(-50%, 0);
+            }
+            &::before {
+                border-radius: 8px;
+                z-index: -1;
+                background: #004291;
+                border: 1px dashed white;
+                content: "";
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                height: 100%;
+            }
             @media screen and (max-width: 768px) {
                 padding: 4px;
             }
@@ -66,7 +88,7 @@
             // border: 1px solid;
             .blokir {
                 font-size: 2.5rem;
-                // font-family: "Source Code Pro";
+                // font-family: "Casino";
                 line-height: 2.5rem;
                 @media screen and (max-width: 768px) {
                     font-size: 2rem;
