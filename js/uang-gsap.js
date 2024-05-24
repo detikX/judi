@@ -15,6 +15,7 @@ targetsHeight.forEach((target, index) => {
             : `+=${targetsHeight[index + 1].offsetHeight}px`;
     const opacityFirst = index === 0 ? 1 : 0;
     const opacitySecond = index === targetsHeight.length - 1 ? 1 : 0;
+    // console.log(targetsHeight[index + 1].offsetHeight - 1, 'end');
     const tl = gsap
         .timeline({
             defaults: { duration: 1 },
@@ -22,7 +23,7 @@ targetsHeight.forEach((target, index) => {
                 trigger: target,
                 pin: true,
                 scrub: true,
-                start: "center center",
+                // start: "center center",
                 end,
                 markers: true,
                 toggleActions: "restart none reverse reset",
