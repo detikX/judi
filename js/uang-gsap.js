@@ -26,6 +26,7 @@ targetsHeight.forEach((target, index) => {
                 // start: "center center",
                 end,
                 markers: true,
+                height: 50,
                 toggleActions: "restart none reverse reset",
                 pinSpacing,
             },
