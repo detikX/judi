@@ -34,7 +34,7 @@ Highcharts.chart('container', {
         style: {
             color: "#fafafa",
             // font: ' sans-serif'
-            font: 'normal 14px "Source Code Pro", sans-serif',
+            font: 'normal 13px "Rubik", sans-serif',
         }
     },
     tooltip: {
