@@ -185,7 +185,7 @@
         filter: initial;
         small {
             font-family: "Source Code Pro";
-            font-size: 1rem;
+            font-size: 14px;
             color: white;
         }
         h3 {
@@ -273,4 +273,8 @@
     // position: absolute;
     // left: 0;
     // bottom: 0;
+}
+
+.min-auto {
+    min-height: auto;
 }

@@ -19,7 +19,7 @@ Highcharts.chart('container2', {
         align: 'left',
         style: {
             // color: "#fafafa",
-            font: ' .8rem "Rubik", sans-serif',
+            font: 'normal 14px "Source Code Pro", sans-serif',
             // lineHeight: '2rem'
         }
     },

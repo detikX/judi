@@ -16,7 +16,7 @@ targetsHeight.forEach((target, index) => {
             : `+=${targetsHeight[index + 1].offsetHeight}px`;
     const opacityFirst = index === 0 ? 1 : 0;
     const opacitySecond = index === targetsHeight.length - 1 ? 1 : 0;
-    console.log(target, 'end');
+    // console.log(target, 'end');
     const tl = gsap
         .timeline({
             defaults: { duration: 1 },
