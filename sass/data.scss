@@ -182,6 +182,23 @@
         position: relative;
         text-align: left;
         width: 70%;
+        filter: initial;
+        small {
+            font-family: "Source Code Pro";
+            font-size: 1rem;
+            color: white;
+        }
+        h3 {
+            color: white;
+            font-family: "Jersey 20" !important;
+            font-size: 3rem;
+            filter: drop-shadow(2px 4px 6px #bc13fe);
+            line-height: 3rem;
+            @media screen and (max-width: 768px) {
+                font-size: 2.5rem;
+                line-height: 2.5rem;
+            }
+        }
         @media screen and (max-width: 768px) {
             text-align: center;
             @media screen and (max-width: 768px) {
@@ -251,5 +268,8 @@
 
 .color-white {
     color: white;
-    margin
+    margin: 2px 0;
+    // position: absolute;
+    // left: 0;
+    // bottom: 0;
 }
