@@ -1,6 +1,9 @@
 Highcharts.chart('container2', {
     chart: {
-        type: 'bar'
+        type: 'bar',
+        backgroundColor: 'rgba(255,255,255,0)',
+        borderRadius: 16,
+        // margin: 16
     },
     plotOptions: {
         column: { colorByPoint: true }
@@ -71,6 +74,7 @@ Highcharts.chart('container2', {
     plotOptions: {
         bar: {
             borderRadius: '50%',
+            borderColor: 'transparent',
             dataLabels: {
                 enabled: true,
                 style: {

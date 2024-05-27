@@ -226,7 +226,7 @@ Highcharts.chart('container3', {
         align: 'left'
     },
     subtitle: {
-        text: 'Sumber: Badan Pusat Statistik',
+        text: 'Sumber: Badan Pusat Statistik, Warna Dipilah Berdasarkan per Provinsi',
         align: 'left',
         style: {
             color: "#fafafa",
@@ -235,6 +235,8 @@ Highcharts.chart('container3', {
     },
     plotOptions: {
         pie: {
+            borderColor: '#fff',
+            borderWidth: 1,
             shadow: false,
             center: ['50%', '50%']
         }
@@ -243,7 +245,7 @@ Highcharts.chart('container3', {
         // valueSuffix: '%'
     },
     series: [{
-        name: 'Browsers',
+        name: 'Perceraian',
         data: browserData,
         size: '45%',
         dataLabels: {

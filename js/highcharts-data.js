@@ -14,6 +14,8 @@ Highcharts.chart('container', {
         plotBackgroundColor: null,
         plotBorderWidth: null,
         plotShadow: false,
+
+        // borderWidth: 2,
         backgroundColor: '#0c0427',
         type: 'pie'
     },
@@ -51,6 +53,8 @@ Highcharts.chart('container', {
             cursor: 'pointer',
             colors,
             borderRadius: 5,
+            borderColor: '#0c0427',
+            borderWidth: 2,
 
             dataLabels: {
                 enabled: true,
@@ -62,8 +66,10 @@ Highcharts.chart('container', {
                     value: 4
                 },
                 style: {
-                    // color: "#fafafa",
-                    font: '1rem "Rubik", sans-serif',
+                    color: "white",
+                    borderColor: '#fafafa',
+                    font: '1.2rem "Rubik", sans-serif',
+                    textOutline: false
                     // lineHeight: '2rem'
                 },
             }
@@ -71,6 +77,7 @@ Highcharts.chart('container', {
     },
     series: [{
         name: 'Persen',
+
         data: [
             { name: 'Instagram', y: 46 },
             { name: 'Youtube', y: 45 },
