@@ -45,6 +45,7 @@ Highcharts.chart('container2', {
                 // color: "#fafafa",
                 font: '.75rem "Rubik", sans-serif',
                 // lineHeight: '2rem'
+                textOutline: false
             }
         },
         gridLineWidth: 1,
@@ -56,6 +57,7 @@ Highcharts.chart('container2', {
                 // color: "#fafafa",
                 font: 'bold 1rem "Source Code Pro", sans-serif',
                 // lineHeight: '2rem'
+                textOutline: false
             }
         }
         // min: 0,
@@ -81,6 +83,7 @@ Highcharts.chart('container2', {
                     // color: "#fafafa",
                     font: '1rem "Rubik", sans-serif',
                     // lineHeight: '2rem'
+                    textOutline: false
                 },
             },
             groupPadding: 0.1
