@@ -254,7 +254,11 @@
         align-items: center;
         padding: 60px;
         border: transparent;
-        background: transparent;
+        // background: transparent;
+        background: linear-gradient(to top, #0c0427 0%, transparent 16%);
+        @media screen and (max-width: 768px) {
+            background: linear-gradient(to top, #0c0427 30%, transparent 30%);
+        }
     }
 
     .card--reverse {
@@ -295,8 +299,11 @@
 .lasts {
     color: white;
     .card__text {
-        height: 150px;
+        // height: 150px;
         bottom: 0;
+        @media screen and (max-width: 768px) {
+            bottom: 3%;
+        }
     }
 }
 
