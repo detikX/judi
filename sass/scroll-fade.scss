@@ -15,6 +15,32 @@
         min-height: 100vh;
         // padding: 100px;
         padding: 100px;
+        .anim {
+            position: absolute;
+            &-one {
+                left: -15%;
+                top: 0;
+                width: 200px;
+                height: auto;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                }
+            }
+            &-two {
+                right: -15%;
+                top: 30%;
+                opacity: 0.5;
+                width: 150px;
+                height: auto;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                }
+            }
+        }
         @media screen and (max-width: 768px) {
             padding: 100px 16px;
         }
