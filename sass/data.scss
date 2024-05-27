@@ -19,7 +19,38 @@
     // 14073c
     background: #0c0427;
     // background: linear-gradient(to top, #0c0427 90%, black);
+    .big {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    .data-one {
+        margin-bottom: 16px;
+    }
+    table {
+        margin-bottom: 0;
+        td {
+            // color: white;
+            &:first-child {
+                border-right: 2px solid;
+            }
+        }
+    }
+    .wrap-kasus {
+        width: fit-content;
+        text-align: center;
 
+        margin: 16px auto;
+        .kasus {
+            color: white;
+            // font-family: "Source Code Pro";
+            font-weight: bold;
+            line-height: 5rem;
+        }
+        .angka {
+            color: white;
+            font-size: 1.3rem;
+        }
+    }
     .titlex {
         font-family: "Jersey 20" !important;
         font-size: 3rem;
@@ -327,5 +358,12 @@
             height: 100%;
             object-fit: contain;
         }
+    }
+}
+
+.polisi-polisi {
+    padding: 0;
+    .wrap-detikx {
+        // margin-top: -50vh;
     }
 }
