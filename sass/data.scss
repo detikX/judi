@@ -25,6 +25,7 @@
     }
     .data-one {
         margin-bottom: 16px;
+        border: 1px solid #bee5eb;
     }
     table {
         margin-bottom: 0;
@@ -49,6 +50,7 @@
         .angka {
             color: white;
             font-size: 1.3rem;
+            padding: 4px;
         }
     }
     .titlex {
@@ -133,7 +135,7 @@
 }
 
 .h-80 {
-    height: 50vh;
+    height: 30vh;
 }
 
 .highcarts-data {
