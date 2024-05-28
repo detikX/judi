@@ -137,7 +137,7 @@ const colors_ = Highcharts.getOptions().colors,
         {
             y: 80,
             // color: colors_[6],
-            color: '#19689e',
+            color: '#7074a0',
             drilldown: {
                 name: 'Sulawesi',
                 categories: [
