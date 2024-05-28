@@ -327,6 +327,7 @@
     margin: 0 auto;
     color: #004291;
     font-size: 12px;
+
     border-radius: 8px;
     padding: 0 8px;
     font-weight: bold;
@@ -376,5 +377,38 @@
     padding: 0;
     .wrap-detikx {
         // margin-top: -50vh;
+    }
+}
+
+.creditxx {
+    border-top: 1px dashed white;
+    min-height: auto;
+    .wrap-detikx {
+        background: linear-gradient(to right, rgba(#004291, 0.6), rgba(#004291, 1));
+        padding: 16px;
+        border-radius: 16px;
+        width: 30%;
+        @media screen and (max-width: 768px) {
+            width: 90%;
+        }
+    }
+    .big-job {
+        font-size: 1.2rem;
+        line-height: 1.2rem;
+        color: white;
+    }
+    .big-name {
+        font-size: 1.6rem;
+        line-height: 1.6rem;
+        color: white;
+    }
+    .wraps {
+        display: block;
+        margin-bottom: 4px !important;
+        div {
+            display: inline-block;
+            color: white;
+            font-family: "Source Code Pro";
+        }
     }
 }

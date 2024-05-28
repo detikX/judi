@@ -1,8 +1,39 @@
 .banner {
+    background: linear-gradient(to top, #166266, #279db8);
+    overflow: hidden;
+    .bg-judi {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: auto;
+        z-index: 2;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+    .bg-kipas {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        right: 0;
+        opacity: 0.4;
+        width: 150%;
+        z-index: 1;
+        transform: translate(-50%, 0);
+        height: auto;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
     .title {
         position: absolute;
         left: 50%;
         top: 50%;
+        z-index: 3;
         width: 50%;
         transform: translate(-50%, -50%);
         @media screen and (max-width: 768px) {
@@ -36,6 +67,7 @@
     #wrapper {
         margin: 40px auto 0;
         width: 266px;
+        z-index: 4;
         position: relative;
     }
 
