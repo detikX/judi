@@ -256,7 +256,11 @@ Highcharts.chart('container3', {
         size: '45%',
         dataLabels: {
             color: '#ffffff',
-            distance: '-50%'
+            distance: '-50%',
+            style: {
+                // fontWeight: 'normal',
+                font: 'normal 18px "Source Code Pro", sans-serif',
+            }
         }
     }, {
         name: 'Perceraian',
@@ -272,7 +276,8 @@ Highcharts.chart('container3', {
                 value: 1
             },
             style: {
-                fontWeight: 'normal'
+                // fontWeight: 'normal',
+                font: 'normal 18px "Source Code Pro", sans-serif',
             }
         },
         id: 'versions'
