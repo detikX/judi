@@ -44,6 +44,7 @@
     }
     .data-one {
         margin-bottom: 16px;
+        // border-radius: ;
         border: 1px solid #bee5eb;
     }
     table {
@@ -430,4 +431,26 @@
             font-family: "Source Code Pro";
         }
     }
+}
+
+footer {
+    width: 100vw;
+    height: 10px;
+    position: sticky;
+    bottom: 0;
+    z-index: 18;
+    left: 0;
+    background: #f7c58d;
+    @media screen and (max-width: 768px) {
+        bottom: 0;
+        height: 10px;
+    }
+}
+
+#footer__progress_bar {
+    height: 10px;
+    background: #cc9a60;
+    width: 0%;
+    position: relative;
+    text-align: left;
 }
