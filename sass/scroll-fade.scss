@@ -1,4 +1,24 @@
 .scroll-fade {
+    &.kotak {
+        &::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            background: url("../img/kotak.png");
+            background-repeat: repeat;
+        }
+        &::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to top, #101a3a, rgba(#101a3a, 0.7), #101a3a);
+        }
+    }
+
     .titlex {
         font-family: "Jersey 20" !important;
         font-size: 3rem;
@@ -36,25 +56,6 @@
         width: 100%;
         min-height: auto;
         padding: 100px;
-        &.kotak {
-            &::before {
-                content: "";
-                position: absolute;
-                inset: 0;
-                width: 100%;
-                height: 100%;
-                background: url("../img/kotak.png");
-                background-repeat: repeat;
-            }
-            &::after {
-                content: "";
-                position: absolute;
-                inset: 0;
-                width: 100%;
-                height: 100%;
-                background: linear-gradient(to top, #101a3a, rgba(#101a3a, 0.7), #101a3a);
-            }
-        }
 
         // background: #000;
         background: transparent;
