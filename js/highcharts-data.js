@@ -16,7 +16,7 @@ Highcharts.chart('container', {
         plotShadow: false,
 
         // borderWidth: 2,
-        backgroundColor: '#0c0427',
+        backgroundColor: '#101a3a',
         type: 'pie'
     },
     title: {
@@ -53,7 +53,7 @@ Highcharts.chart('container', {
             cursor: 'pointer',
             colors,
             borderRadius: 5,
-            borderColor: '#0c0427',
+            borderColor: '#101a3a',
             borderWidth: 2,
 
             dataLabels: {

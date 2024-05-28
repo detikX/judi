@@ -219,7 +219,7 @@ for (i = 0; i < dataLen; i += 1) {
 Highcharts.chart('container3', {
     chart: {
         type: 'pie',
-        backgroundColor: '#0c0427',
+        backgroundColor: '#101a3a',
     },
     title: {
         text: '',
