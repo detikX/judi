@@ -129,6 +129,7 @@
             z-index: -1;
             @media screen and (max-width: 768px) {
                 height: 60vh;
+                background: linear-gradient(to bottom, #141867, transparent 35%);
             }
         }
     }
