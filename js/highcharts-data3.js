@@ -10,7 +10,8 @@ const colors_ = Highcharts.getOptions().colors,
     data = [
         {
             y: 241,
-            color: colors_[2],
+            // color: colors_[2],
+            color: '#8576FF',
             drilldown: {
                 name: 'Sumatera',
                 categories: [
@@ -50,7 +51,8 @@ const colors_ = Highcharts.getOptions().colors,
         },
         {
             y: 717,
-            color: colors_[3],
+            // color: colors_[3],
+            color: '#1C1678',
             drilldown: {
                 name: 'Jawa',
                 categories: [
@@ -86,7 +88,8 @@ const colors_ = Highcharts.getOptions().colors,
         },
         {
             y: 32,
-            color: colors_[5],
+            // color: colors_[5],
+            color: '#5e76a7',
             drilldown: {
                 name: 'Nusa Tenggara',
                 categories: [
@@ -104,7 +107,8 @@ const colors_ = Highcharts.getOptions().colors,
         },
         {
             y: 109,
-            color: colors_[1],
+            // color: colors_[1],
+            color: '#66869c',
             drilldown: {
                 name: 'Kalimantan',
                 categories: [
@@ -132,7 +136,8 @@ const colors_ = Highcharts.getOptions().colors,
         },
         {
             y: 80,
-            color: colors_[6],
+            // color: colors_[6],
+            color: '#19689e',
             drilldown: {
                 name: 'Sulawesi',
                 categories: [
@@ -158,7 +163,8 @@ const colors_ = Highcharts.getOptions().colors,
         },
         {
             y: 12,
-            color: colors_[7],
+            // color: colors_[7],
+            color: '#ada4f6',
             drilldown: {
                 name: 'Maluku',
                 categories: [

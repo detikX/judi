@@ -103,9 +103,10 @@ $(document).ready(function () {
         // console.log(current_name);
         var $i = 0;
         position = sortWithIndeces(position);
-        // console.log('wqewew', position, position[1], position.sortIndices[1]); current_name = position_name[position.sortIndices[1]];
+        console.log('wqewew', position, position[1], position.sortIndices[1]); current_name = position_name[position.sortIndices[1]];
         //console.log('kk',current_name);          
-        alert('Poin kamu: ' + current_name + '');
+        alert(current_name)
+        // alert('Poin kamu: ' + current_name + '');
         setPosition();
     }
 
