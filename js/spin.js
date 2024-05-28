@@ -97,15 +97,15 @@ $(document).ready(function () {
 
     function getCounterData(num) {
         setPosition();
-        //console.log("position",position_left,position_name);
+
         current = position[0];
         current_name = position_name[0];
-        console.log(current_name);
+        // console.log(current_name);
         var $i = 0;
         position = sortWithIndeces(position);
-        console.log('wqewew', position, position[1], position.sortIndices[1]); current_name = position_name[position.sortIndices[1]];
+        // console.log('wqewew', position, position[1], position.sortIndices[1]); current_name = position_name[position.sortIndices[1]];
         //console.log('kk',current_name);          
-        alert(current_name);
+        alert('Poin kamu: ' + current_name + '');
         setPosition();
     }
 
