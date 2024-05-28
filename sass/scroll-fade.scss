@@ -193,3 +193,10 @@
 .bg-whitex {
     background: rgba(255, 255, 255, 0.7) !important;
 }
+
+.top-16 {
+    padding: 8vh;
+    @media screen and (max-width: 768px) {
+        padding-top: 16vh;
+    }
+}
