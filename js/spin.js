@@ -38,7 +38,7 @@ $(document).ready(function () {
                 }
 
                 var aoY = t.offset().top;
-                // $("#txt").html(aoY);
+                $("#txt").html(aoY);
                 //console.log(aoY);
                 //console.log('this',position);
 
@@ -105,7 +105,7 @@ $(document).ready(function () {
         position = sortWithIndeces(position);
         console.log('wqewew', position, position[1], position.sortIndices[1]); current_name = position_name[position.sortIndices[1]];
         //console.log('kk',current_name);          
-        alert(current_name)
+        // alert(current_name)
         // alert('Poin kamu: ' + current_name + '');
         setPosition();
     }
