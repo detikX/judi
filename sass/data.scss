@@ -145,11 +145,11 @@
             left: 0;
             right: 0;
             height: 40vh;
-            background: #141867;
+            // background: #004291;
             z-index: -1;
+            background: linear-gradient(to bottom, #004291, transparent 35%);
             @media screen and (max-width: 768px) {
                 height: 60vh;
-                background: linear-gradient(to bottom, #141867, transparent 35%);
             }
         }
     }
@@ -401,7 +401,7 @@
 }
 
 .creditxx {
-    border-top: 1px dashed white;
+    // border-top: 1px dashed white;
     min-height: auto;
     .wrap-detikx {
         background: linear-gradient(to right, rgba(#004291, 0.6), rgba(#004291, 1));
@@ -435,7 +435,7 @@
 
 footer {
     width: 100vw;
-    height: 10px;
+    height: 8px;
     position: sticky;
     bottom: 0;
     z-index: 18;
@@ -448,7 +448,8 @@ footer {
 }
 
 #footer__progress_bar {
-    height: 10px;
+    height: 8px;
+    // color: #007bff;
     background: #007bff;
     width: 0%;
     position: relative;
