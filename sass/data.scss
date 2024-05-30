@@ -89,7 +89,11 @@
     .content {
         p {
             color: #101a3a;
-            // font-size: 1.5rem;
+            font-size: 1.2rem;
+            font-family: "Source Code Pro";
+            @media screen and (max-width: 768px) {
+                font-size: 1rem;
+            }
             // line-height: 1.8rem;
         }
     }
@@ -450,7 +454,7 @@ footer {
 #footer__progress_bar {
     height: 8px;
     // color: #007bff;
-    background: #007bff;
+    background: #6ab2ff;
     width: 0%;
     position: relative;
     text-align: left;

@@ -352,7 +352,8 @@ section {
 }
 
 #nav.dark {
-    background: linear-gradient(45deg, #333, #442030) !important;
+    // linear-gradient(45deg, #333, #023d85) !important
+    background: linear-gradient(45deg, #333, #023d85) !important;
 }
 
 .footer {
@@ -374,7 +375,8 @@ section {
     // background: rgb(105 84 29 / 80%) !important;
     // background: rgb(80, 80, 80, 0.8) !important;
     // backdrop-filter: blur(11px);
-    background: linear-gradient(45deg, #333, #442030) !important;
+    // linear-gradient(45deg, #333, #023d85) !important
+    background: linear-gradient(45deg, #333, #023d85) !important;
     @media screen and (max-width: 766px) {
         // backdrop-filter: initial;
         // background: rgb(80, 80, 80, 0.8) !important;
