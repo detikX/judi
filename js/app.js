@@ -1,3 +1,10 @@
+$(document).ready(function () {
+    new WOW().init();
+    AOS.init()
+})
+
+$(".pembukaan .wrap-detikx p").attr({ "data-aos": "fade-in", "data-aos-delay": "200", "data-aos-duration": "300" });
+
 window.onscroll = function () { ScrollIndicator() };
 
 // var mobil = "<div class='imgs'><img src='img/mobil-kanan.png' /></div>"
