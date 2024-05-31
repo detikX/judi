@@ -348,12 +348,12 @@ section {
 
 #nav.no_index,
 #share {
-    z-index: 21;
+    z-index: 19;
 }
 
 #nav.dark {
-    // linear-gradient(45deg, #333, #023d85) !important
-    background: linear-gradient(45deg, #333, #023d85) !important;
+    // linear-gradient(45deg, #0d233e, #023d85) !important
+    background: linear-gradient(45deg, #0d233e, #023d85) !important;
 }
 
 .footer {
@@ -375,8 +375,8 @@ section {
     // background: rgb(105 84 29 / 80%) !important;
     // background: rgb(80, 80, 80, 0.8) !important;
     // backdrop-filter: blur(11px);
-    // linear-gradient(45deg, #333, #023d85) !important
-    background: linear-gradient(45deg, #333, #023d85) !important;
+    // linear-gradient(45deg, #0d233e, #023d85) !important
+    background: linear-gradient(45deg, #0d233e, #023d85) !important;
     @media screen and (max-width: 766px) {
         // backdrop-filter: initial;
         // background: rgb(80, 80, 80, 0.8) !important;

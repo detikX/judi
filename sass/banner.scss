@@ -1,6 +1,20 @@
 .banner {
     background: linear-gradient(to top, #166266, #279db8);
     overflow: hidden;
+    &::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 30vh;
+        z-index: 4;
+        background: linear-gradient(to top, #101a3a, transparent);
+    }
+    @media screen and (max-width: 768px) {
+        min-height: 80vh;
+    }
     .bg-judi {
         position: absolute;
         inset: 0;
@@ -32,22 +46,28 @@
     .title {
         position: absolute;
         left: 50%;
-        top: 50%;
+        top: 24%;
         z-index: 3;
         width: 50%;
+        background: #0b4568;
+        padding: 8px;
+        border-radius: 16px;
+        border: 2px dashed yellow;
         transform: translate(-50%, -50%);
         @media screen and (max-width: 768px) {
-            width: 100%;
+            width: 90%;
+            // top: 50%;
         }
         h2 {
             color: white;
-            font-size: 4rem;
+            font-size: 5rem;
+            line-height: 4rem;
             text-align: center;
             font-family: "Jersey 20" !important;
-            filter: drop-shadow(2px 4px 6px blue);
+            filter: drop-shadow(2px 4px 6px #bc13fe);
             @media screen and (max-width: 768px) {
-                font-size: 4rem;
-                line-height: 4rem;
+                font-size: 3rem;
+                line-height: 3rem;
             }
         }
     }
