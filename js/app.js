@@ -1,4 +1,13 @@
+
 $(document).ready(function () {
+    setTimeout(() => {
+        $(".preloader").slideUp(1000);
+        $(".preloader").remove();
+        $("html, body").animate({ scrollTop: 0 }, 10);
+        window.scrollTo(0, 0);
+
+    }, 2000);
+
     new WOW().init();
     AOS.init()
 })
