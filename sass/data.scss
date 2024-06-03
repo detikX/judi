@@ -270,8 +270,11 @@
         top: 50%;
         transform: translate(-50%, -50%);
         @media screen and (max-width: 768px) {
-            transform: translate(-50%, -50%);
+            transform: translate(-50%, -52%);
         }
+        // @media screen and (max-width:) {
+
+        // }
     }
     .card {
         display: flex;
