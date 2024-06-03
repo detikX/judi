@@ -39,5 +39,5 @@ setTimeout(() => {
             .to(target, { opacity: opacitySecond, duration: 0.2 }, 0.8);
     });
 
-}, 10);
+}, 100);
 
