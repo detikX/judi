@@ -53,13 +53,21 @@ Highcharts.chart('container2', {
     },
     yAxis: {
         title: {
-            style: {
-                // color: "#fafafa",
-                // font: 'bold 1rem "Source Code Pro", sans-serif',
-                // lineHeight: '2rem'
-                // textOutline: false
-            }
+            text: null
+        },
+        labels: {
+            enabled: false
         }
+
+        // title: {
+        //     title: false,
+        //     style: {
+        //         // color: "#fafafa",
+        //         // font: 'bold 1rem "Source Code Pro", sans-serif',
+        //         // lineHeight: '2rem'
+        //         // textOutline: false
+        //     }
+        // }
         // min: 0,
         // title: {
         //     text: 'Population (millions)',
@@ -101,11 +109,14 @@ Highcharts.chart('container2', {
     //         Highcharts.defaultOptions.legend.backgroundColor || '#FFFFFF',
     //     shadow: true
     // },
+    legend: {
+        enabled: false
+    },
     credits: {
         enabled: false
     },
     series: [{
-        name: 'Persen',
+        name: '',
         data: [
             { name: 'Penghasilan Pribadi', y: 81.2 },
             { name: 'Tabungan', y: 22.5 },
@@ -115,4 +126,6 @@ Highcharts.chart('container2', {
             { name: 'Lainnya', y: 3.3 }
         ]
     }]
+
 });
+
