@@ -106,7 +106,7 @@ $(document).ready(function () {
         console.log('wqewew', position, position[1], position.sortIndices[1]); current_name = position_name[position.sortIndices[1]];
         //console.log('kk',current_name);          
         // alert(current_name)
-        alert('Poin kamu: ' + current_name + '. Lanjut scroll kebawah.');
+        alert('Selamat! Poin kamu: 0. Jangan sekali-kali mencoba judi online!');
         setPosition();
     }
 

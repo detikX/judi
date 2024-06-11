@@ -18,7 +18,7 @@ Highcharts.chart('container2', {
         }
     },
     subtitle: {
-        text: 'Sumber: Survei Jakpat dari 426 responden yang pernah bermain judi online, 29 Oktober 2023.',
+        text: 'Sumber: Survei Jakpat dari 426 responden yang pernah bermain judi <i>online</i>, 29 Oktober 2023.',
         align: 'left',
         style: {
             // color: "#fafafa",
@@ -105,7 +105,7 @@ Highcharts.chart('container2', {
         enabled: false
     },
     series: [{
-        name: 'Persen',
+        name: '',
         data: [
             { name: 'Penghasilan Pribadi', y: 81.2 },
             { name: 'Tabungan', y: 22.5 },
