@@ -432,9 +432,14 @@
     }
     .wraps {
         display: block;
-        margin-bottom: 4px !important;
+        margin-bottom: 8px !important;
+        .jobdesc {
+            color: #ccc;
+            font-size: 1rem;
+            line-height: 1rem;
+        }
         div {
-            display: inline-block;
+            // display: inline-block;
             color: white;
             font-family: "Source Code Pro";
         }
