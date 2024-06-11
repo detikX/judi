@@ -55,9 +55,9 @@ Highcharts.chart('container2', {
         title: {
             style: {
                 // color: "#fafafa",
-                font: 'bold 1rem "Source Code Pro", sans-serif',
+                // font: 'bold 1rem "Source Code Pro", sans-serif',
                 // lineHeight: '2rem'
-                textOutline: false
+                // textOutline: false
             }
         }
         // min: 0,
@@ -105,7 +105,7 @@ Highcharts.chart('container2', {
         enabled: false
     },
     series: [{
-        name: '',
+        name: 'Persen',
         data: [
             { name: 'Penghasilan Pribadi', y: 81.2 },
             { name: 'Tabungan', y: 22.5 },
