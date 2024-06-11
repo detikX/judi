@@ -12,7 +12,7 @@ $(document).ready(function () {
     AOS.init()
 })
 
-$(".pembukaan .wrap-detikx p").attr({ "data-aos": "fade-in", "data-aos-delay": "200", "data-aos-duration": "300" });
+$(".pembukaan .wrap-detikx p").attr({ "data-aos": "fade-up", "data-aos-delay": "200", "data-aos-duration": "300" });
 
 window.onscroll = function () { ScrollIndicator() };
 
