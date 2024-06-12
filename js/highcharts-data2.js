@@ -121,7 +121,7 @@ Highcharts.chart('container2', {
             { name: 'Penghasilan Pribadi', y: 81.2 },
             { name: 'Tabungan', y: 22.5 },
             { name: 'Pinjam ke Saudara', y: 6.1 },
-            { name: 'Pinjaman Online', y: 5.9 },
+            { name: 'Pinjaman <i>Online</i>', y: 5.9 },
             { name: 'Jual Barang', y: 5.2 },
             { name: 'Lainnya', y: 3.3 }
         ]
